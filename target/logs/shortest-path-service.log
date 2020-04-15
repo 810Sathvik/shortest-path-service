@@ -1,0 +1,90 @@
+2020-04-15 14:14:28,430 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Starting ShortestPathServiceApplication v0.0.1-SNAPSHOT on User-PC with PID 11072 (E:\Discovery\ShortestPathService\shortest-path-service\target\shortest-path-service-0.0.1-SNAPSHOT.jar started by User in E:\Discovery\ShortestPathService\shortest-path-service)
+2020-04-15 14:14:28,462 DEBUG [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-15 14:14:28,472 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : No active profile set, falling back to default profiles: default
+2020-04-15 14:14:32,551 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-15 14:14:32,984 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 387ms. Found 2 repository interfaces.
+2020-04-15 14:14:36,599 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d30908d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 14:14:36,834 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$52895606] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 14:14:42,231 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8084 (http)
+2020-04-15 14:14:42,399 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-04-15 14:14:42,400 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-15 14:14:42,474 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Users\User\AppData\Roaming\npm;.]
+2020-04-15 14:14:47,401 INFO  [main] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-15 14:14:48,753 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-04-15 14:14:48,755 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 19822 ms
+2020-04-15 14:14:52,360 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-04-15 14:14:54,917 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-04-15 14:14:55,538 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-15 14:14:56,318 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-15 14:14:56,330 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2020-04-15 14:14:57,742 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-15 14:15:00,097 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-15 14:15:06,453 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1bf4cbd'
+2020-04-15 14:15:06,479 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-15 14:15:14,937 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-15 14:15:15,513 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-15 14:15:21,070 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> import PlanetNames started <-------------------------
+2020-04-15 14:15:21,076 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> inside :: importPlanetNamesFile() of ShortestPathServiceApplication <-------------------------
+2020-04-15 14:15:21,077 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> started:: importPlanetNamesFile <-------------------------
+2020-04-15 14:15:22,217 INFO  [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+2020-04-15 14:15:23,166 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> size of the Planet Names list is from H2 DB <-------------------------37
+2020-04-15 14:15:23,172 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> ended:: importPlanetNamesFile <-------------------------
+2020-04-15 14:15:23,174 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> import PlanetNames completed <-------------------------
+2020-04-15 14:15:23,177 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> Import PlanetRoutes started <-------------------------
+2020-04-15 14:15:23,180 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> inside :: importPlanetRouteFile() of ShortestPathServiceApplication <-------------------------
+2020-04-15 14:15:23,181 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> started :: importPlanetRouteFile <-------------------------
+2020-04-15 14:15:23,480 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> size of the PlanetRoute List is from H2 DB <-------------------------45
+2020-04-15 14:15:23,481 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> ended:: importPlanetRouteFile <-------------------------
+2020-04-15 14:15:23,482 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> Import PlanetRoutes completed <-------------------------
+2020-04-15 14:15:26,345 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8084 (http) with context path ''
+2020-04-15 14:15:26,355 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Started ShortestPathServiceApplication in 61.116 seconds (JVM running for 63.519)
+2020-04-15 14:15:26,653 INFO  [http-nio-8084-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 14:15:26,654 INFO  [http-nio-8084-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-04-15 14:15:26,817 INFO  [http-nio-8084-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 162 ms
+2020-04-15 15:21:16,650 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m21s136ms773µs629ns).
+2020-04-15 16:05:36,660 INFO  [Thread-3] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-15 16:05:36,968 INFO  [Thread-3] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-15 16:05:37,380 INFO  [Thread-3] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-04-15 16:18:45,191 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Starting ShortestPathServiceApplication on User-PC with PID 10640 (E:\Discovery\ShortestPathService\shortest-path-service\target\classes started by User in E:\Discovery\ShortestPathService\shortest-path-service)
+2020-04-15 16:18:45,327 DEBUG [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2020-04-15 16:18:45,371 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : No active profile set, falling back to default profiles: default
+2020-04-15 16:18:59,025 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-15 16:18:59,415 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 344ms. Found 2 repository interfaces.
+2020-04-15 16:19:03,394 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7af6097b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 16:19:03,511 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$fa7656ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 16:19:08,432 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8084 (http)
+2020-04-15 16:19:08,693 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-04-15 16:19:08,694 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-15 16:19:08,785 INFO  [main] org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Users\User\AppData\Roaming\npm;.]
+2020-04-15 16:19:09,453 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-04-15 16:19:09,454 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 21849 ms
+2020-04-15 16:19:10,837 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-04-15 16:19:12,117 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2020-04-15 16:19:12,705 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-15 16:19:13,292 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-15 16:19:13,299 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2020-04-15 16:19:14,414 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-15 16:19:15,718 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-15 16:19:20,285 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1aa9ce4'
+2020-04-15 16:19:20,309 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-15 16:19:25,316 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-15 16:19:25,740 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-15 16:19:28,642 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> import PlanetNames started <-------------------------
+2020-04-15 16:19:28,642 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> inside :: importPlanetNamesFile() of ShortestPathServiceApplication <-------------------------
+2020-04-15 16:19:28,642 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> started:: importPlanetNamesFile <-------------------------
+2020-04-15 16:19:29,380 INFO  [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+2020-04-15 16:19:29,994 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> size of the Planet Names list is from H2 DB <-------------------------37
+2020-04-15 16:19:29,994 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> ended:: importPlanetNamesFile <-------------------------
+2020-04-15 16:19:29,995 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> import PlanetNames completed <-------------------------
+2020-04-15 16:19:29,995 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> Import PlanetRoutes started <-------------------------
+2020-04-15 16:19:29,995 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> inside :: importPlanetRouteFile() of ShortestPathServiceApplication <-------------------------
+2020-04-15 16:19:29,995 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> started :: importPlanetRouteFile <-------------------------
+2020-04-15 16:19:30,202 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> size of the PlanetRoute List is from H2 DB <-------------------------45
+2020-04-15 16:19:30,203 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> ended:: importPlanetRouteFile <-------------------------
+2020-04-15 16:19:30,203 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : -------------------> Import PlanetRoutes completed <-------------------------
+2020-04-15 16:19:30,346 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8084 (http) with context path ''
+2020-04-15 16:19:30,361 INFO  [main] com.discovery.shortestpathservice.ShortestPathServiceApplication : Started ShortestPathServiceApplication in 54.077 seconds (JVM running for 59.179)

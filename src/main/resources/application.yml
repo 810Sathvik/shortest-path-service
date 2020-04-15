@@ -1,0 +1,13 @@
+server.port: 8084
+
+
+logging:
+  file: target/logs/shortest-path-service.log
+  pattern:
+      console: " "
+      file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    com.discovery.shortestpathservice: TRACE
+    org.springframework.session: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
