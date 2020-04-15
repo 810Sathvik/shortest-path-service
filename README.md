@@ -34,11 +34,11 @@ static resource files place under the resources/templates
 
 URLs to the load the UI page
 ============================
-http://localhost:8084/ --> it loads the frondend page where you can select source and destination planet
+http://localhost:8084/ --> it loads the view page where we can select source and destination planet
 
 on submission, the URI /shortestpath will be called and displays the result.
 
-Click on Back button to submit the page with difference planets.
+Click on Back button to submit the page with different planets.
 
 Logs:
 =====
