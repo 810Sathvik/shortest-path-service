@@ -15,6 +15,8 @@ com.discovery.shortestpathservice.entity --> Entity classes goes here.
 
 com.discovery.shortestpathservice.model --> Model classes goes here.
 
+com.discovery.shortestpathservice.util ---> Constants class.
+
 Import Files
 ===========
 /resources/graph folder
@@ -22,7 +24,7 @@ Import Files
 Application Port
 ================
 application port available in the below path:
-/rsources/application.yml
+/resources/application.yml
 application start with 8084 port
 
 View pages
@@ -46,17 +48,16 @@ PATH: /target/logs/shortest-path-service.log
 how to run the application.
 ---------------------------
 
-run:  mvn clean install --> it generate the .jar in the below path  /target/shortest-path-service-0.0.1-SNAPSHOT.jar
-
-to start the application
-========================
-
-Execute command: java -jar target\shortest-path-service-0.0.1-SNAPSHOT.jar
-
-ShotestPathServiceApplication.java will run automatically.
+Step 1: Execute command:  mvn clean install --> it generate the .jar in the below path  /target/shortest-path-service-0.0.1-SNAPSHOT.jar
 
 ShotestPathServiceApplication.java ---> This is starting point of the service and this class reads the Import File and persist with H2 Database on application start up.
 so that data is ready after start up.
+
+Step 2: Execute command:  java -jar target\shortest-path-service-0.0.1-SNAPSHOT.jar
+
+ShotestPathServiceApplication.java will run automatically and reads import file and persists into H2 DB.
+
+
 
 
 
